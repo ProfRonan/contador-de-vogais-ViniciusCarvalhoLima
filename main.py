@@ -5,5 +5,3 @@ def count_vowels(string:str) -> int:
     for i in vogais:
         result += string.count(i)
     return result
-
-print(count_vowels(input("")))
